@@ -4,29 +4,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        violet: "#A88ADD",
-        verto: " #0CC2AA",
-        jauno: "#FCC100",
-        rougeo: "#F90000",
-        violeto: "#9C27B0",
-        blo: "#1565C0",
-        blanco: "#FFFFff",
-        grayo: "#444444",
-        textHotel: "#8D4B38",
-        page: "#ebeaea",
+        primary: "#5B483D",
+        orange: "#e5930f",
+        noir: "#000000",
+        blanc: "#FFFFFF",
+        rouge: "#ff0000",
+        bleu: "#2200e5",
+        gris: "#757575",
+        maron: "#ecd0d0e8",
+        bluq: "#072967",
       },
-    },
-    screens: {
-      tablet: "640px",
-      // => @media (min-width: 640px) { ... }
-
-      laptop: "1024px",
-      // => @media (min-width: 1024px) { ... }
-
-      desktop: "1280px",
-      // => @media (min-width: 1280px) { ... }
+      fontFamily: {
+        marcellusSerif: ["Marcellus SC", "serif"],
+      },
     },
   },
   plugins: [],
 };
-
