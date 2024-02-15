@@ -2,14 +2,13 @@ import React from "react";
 import "./index.css";
 
 import { BrowserRouter } from "react-router-dom";
+import EnsembleTemp2 from "./components/ProManage/EnsembleTemp2";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-        <h1 className="text-center font-bold mt-40 text-[60px] text-green-500 italic">
-          La liste de mes templates
-        </h1>
+        <div><EnsembleTemp2/></div>
       </BrowserRouter>
     </div>
   );
